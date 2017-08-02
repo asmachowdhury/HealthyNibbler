@@ -1,33 +1,27 @@
 body{
-    background-color:#c6ebc6;
+    background-color:#c68c53;
 }
-h1{font-family:"al";}
 
-<style>
-        .navbar-inverse .navbar-nav > li > a {
-            color: white !important;
-        }
+h1{
+    font-weight: bold;
+    font-size: 40px;
+    font-style: oblique
+    text-decoration: underline;
+}
 
-            .navbar-inverse .navbar-nav > li > a:hover {
-                text-decoration: underline;
-            }
-
-        .navbar-collapse ul li {
-            padding-top: 0px;
-            padding-bottom: 0px;
-        }
-
-            .navbar-collapse ul li a {
-                padding-top: 0px;
-                padding-bottom: 0px;
-            }
-
-        .navbar-brand img {
-            width: 200px;
-            height: 40px;
-        }
-
-        .navbar-inverse {
-            background-color: #3A1B37;
-        }
-    </style>
+    element.style{
+    }
+    .slide-image{
+        display: block;
+        width: 100%;
+    }
+    
+    img {
+        max-width:100%;
+    }
+    
+    img{
+        border:0;
+    }
+    
+    
