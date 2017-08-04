@@ -1,5 +1,5 @@
 body{
-    background-color:#c68c53;
+    background-color:#69D887;
 }
 
 h1{
@@ -23,5 +23,10 @@ h1{
     img{
         border:0;
     }
-    
+ 
+ .btn-info { 
+     margin-right: 80px;     
+} 
+
+
     
