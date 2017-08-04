@@ -1,12 +1,8 @@
-#pic1{
-    height:50px;width:60px;length:10px;
-    
-}
-
-#pic2{
-    
+.pic{
+    width:100%;
+    margin:10px;
 }
 
 body{
-    background-color:#;
+    background-color:#ffb366;
 }
