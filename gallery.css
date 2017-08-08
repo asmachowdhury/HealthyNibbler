@@ -1,8 +1,33 @@
+h1{
+    text-decoration:underline;
+    font-size:50px;
+    font-weight:bold;
+    font-family: "Times New Roman", Georgia, Serif;
+    color:white;
+}
 .pic{
     width:100%;
     margin:10px;
 }
 
 body{
-    background-color:#ffb366;
+    background-color:#7D5226;
+}
+
+.nav {
+   position: relative;
+   left: 2850px;
+   
+}
+
+.nav li a{
+    color:white;
+    font-size:20px;
+}
+.nav li{
+    margin-left:50px;
+}
+.navbar{
+    background-color:#AD8533;
+    
 }

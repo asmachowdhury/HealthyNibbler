@@ -1,0 +1,17 @@
+.nav {
+   position: relative;
+   left: 285px;
+   
+}
+
+.nav li a{
+    color:white;
+    ont-size:20px;
+}
+.nav li{
+    margin-left:50px;
+}
+.navbar{
+    background-color:#AD8533;
+    
+}

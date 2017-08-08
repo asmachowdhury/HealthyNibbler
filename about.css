@@ -4,11 +4,14 @@
 }
 
 body{
-    background-color:#e69900;
+    background-color:#7D5226;
 }
 
 p{
     text-indent:40px;
+    font-family:'josefin slab';
+    font-size:18px;
+    color:white;
 }
 
 h1{
@@ -16,15 +19,78 @@ h1{
     font-size:50px;
     font-weight:bold;
     font-family: "Times New Roman", Georgia, Serif;
+    color:white;
 }
 #p1{
     font-size: 150%;
     text-indent:1px;
     text-decoration: underline;
     font-weight: bold;
+    color:white;
 }
 
 #lol{
     text-decoration:underline;
     font-weight:bold;
+    font-size:18px;
+    color:white;
+}
+
+#lo{
+    text-decoration:underline;
+    font-weight:bold;
+    font-size:18px;
+    color:white;
+}
+#ol{
+    text-decoration:underline;
+    font-weight:bold;
+    font-size:18px;
+    color:white;
+}
+
+#loll{
+    text-decoration:underline;
+    font-weight:bold;
+   font-size:18px;
+   color:white;
+}
+
+#h2{
+    font-size:18px;
+   color:white;
+}
+
+#h3{
+    font-size:18px;
+   color:white;
+}
+
+#h4{
+    font-size:18px;
+   color:white;
+}
+
+#h5{
+    font-size:18px;
+   color:white;
+}
+
+.nav {
+   position: relative;
+   left: 285px;
+   
+}
+
+.nav li a{
+    color:white;
+    font-size:20px;
+    
+}
+.nav li{
+    margin-left:50px;
+}
+.navbar{
+    background-color:#AD8533;
+    
 }

@@ -1,12 +1,13 @@
 body{
-    background-color:#e69900;
+    background-color:#7D5226;
 }
 
 h1{
-    font-weight: bold;
-    font-size: 40px;
-    font-style: oblique
-    text-decoration: underline;
+    text-decoration:underline;
+    font-size:50px;
+    font-weight:bold;
+    font-family: "Times New Roman", Georgia, Serif;
+    color:white;
 }
 
     element.style{
@@ -27,6 +28,26 @@ h1{
  .btn-info { 
      margin-right: 80px;     
 } 
+#pic{
+    border-style: solid;
+    border-color: white;
+    border-width: 35px;
+}
 
+.nav {
+   position: relative;
+   left: 285px;
+   
+}
 
+.nav li a{
+    color:white;
+    font-size:20px;
+}
+.nav li{
+    margin-left:50px;
+}
+.navbar{
+    background-color:#AD8533;
     
+}
