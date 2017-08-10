@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="styles.css">
 
     <script src="myscripts.js"></script>
-        <title>Donate</title>
+        <title>Checkout</title>
         <link rel="stylesheet" href="donate.css" type="text/css" />
     </head>
-    <body>
+    <body id="checkout">
         <form action="" class="navbar-form navbar-right">
         <div class="input-group">
             <input type="Search" placeholder="Search..." class="form-control" />
@@ -36,12 +36,14 @@
             </ul>
         </div>
     </nav>
-        <h2>Donate</h2>
+        <h2>Checkout</h2>
+        <div class="cart">
+            <h3>Items</h3>
+        </div>
     <form action="https://formspree.io/asma.chowdhury@uasdc.org"
       method="POST">
         <div class="row">
              <div class="col-md-6">
-                
      <input name="First Name"  placeholder=" First Name" class="form-control">
     <br>
      <input name="Last Name" placeholder="Last Name" class="form-control">
@@ -55,16 +57,12 @@
      <input name="State"  placeholder="State" class="form-control message">
     <br>
     <input name="Zip Code" placeholder="Zip Code" class="form-control">
-    <br>
-     <img src="http://americanlifestylemag.com/wp-content/uploads/2015/03/FluffyFace-copy.jpg">
                  
                  
                  
              </div>
              <div class="col-md-6">
-                 <input name="Email" placeholder="Email" class="form-control">
-     <br>
-     <input name="How much" placeholder="How much do you want to donate?" class="form-control message">
+      <input name="Email" placeholder="Email" class="form-control">
     <br>
      <input name="Card Number" placeholder="Card Number" class="form-control">
      <br>
@@ -72,7 +70,7 @@
     <br>
      <input name="cvv" placeholder="CVV" class="form-control">
      <br>
-     <h3>Donate money for an animal shelter and rehabilitation.</h3>
+     
                  
              </div>
          </div>
@@ -91,7 +89,7 @@
             <div class="col-md-1"></div>
             <div class="col-md-1"></div>
         </div>
-     
+     <button id="empty" class="btn btn-warning">Empty Cart</button>
     
     </form>
     </body>

@@ -51,3 +51,27 @@ h1{
     background-color:#AD8533;
     
 }
+
+#home{
+     text-decoration:underline;
+    font-weight:bold;
+    font-family:'josefin slab';
+}
+.inline{
+    display:inline !important;
+}
+.item1{
+    color:white;
+    font-size:30px;
+}
+.auto-width{
+    width:auto !important;
+}
+.cent{
+position:relative;
+right:195px;
+}
+.cart{
+    color:white;
+    font-size: 20px;
+}

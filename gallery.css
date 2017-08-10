@@ -15,8 +15,8 @@ body{
 }
 
 .nav {
-   position: relative;
-   left: 2850px;
+    position:relative;
+   left: 285px;
    
 }
 
@@ -30,4 +30,10 @@ body{
 .navbar{
     background-color:#AD8533;
     
+}
+
+.home{
+     text-decoration:underline;
+    font-weight:bold;
+    font-family:'josefin slab';
 }

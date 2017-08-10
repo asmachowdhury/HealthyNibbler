@@ -94,3 +94,9 @@ h1{
     background-color:#AD8533;
     
 }
+
+#home{
+     text-decoration:underline;
+    font-weight:bold;
+    font-family:'josefin slab';
+}

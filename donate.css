@@ -15,3 +15,17 @@
     background-color:#AD8533;
     
 }
+
+#home{
+     text-decoration:underline;
+    font-weight:bold;
+    font-family:'josefin slab';
+}
+
+h2{
+    text-decoration:underline;
+    font-size:35px;
+    font-weight:bold;
+    font-family: "Times New Roman", Georgia, Serif;
+    color:white;
+}

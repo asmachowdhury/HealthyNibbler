@@ -17,20 +17,22 @@
 <div class="input-group">
     <input type="Search" placeholder="Search..." class="form-control" />
      <div class="input-group-btn">
-                <button class="btn btn-info">
+                <button class="btn btn-warning">
            <span class="glyphicon glyphicon-search"></span>
            </button>
      </div>
 </div>
     </form>
     <h1> Kate's Camelids</h1>
-   <nav class="navbar navbar-default fixed-top">
-            <ul class="nav navbar-nav">
-                <li><a href="index.html"> Home  </a></li>
-                <li class="active"><a href="shop.html"> Shop</a></li>
-                <li><a href="about.html">About </a></li>
-               <li><a href="gallery.html">Gallery</a></li>
-               <li><a href="donate.html">Donate</a></li>
+   <nav class="navbar fixed-top">
+             <ul class="nav navbar-nav">
+                <li class="active"><a id="home" href="index.html"> Home  </a></li>
+                 <li><a id="home" href="shop.html"> Shop</a></li>
+                <li><a id="home" href="about.html">About </a></li>
+               <li><a id="home"  href="gallery.html">Gallery</a></li>
+               <li><a id="home" href="donate.html">Donate</a></li>
+                               <li><a id="home" href="contact.html">Contact</a></li>
+
             </ul>
     </nav>
     <div class="row">
@@ -39,8 +41,57 @@
                <img id="pic" style="height:550px;width:400px;" src="https://tcllamas.files.wordpress.com/2011/05/scarf-2.jpg" />
           </div>
           <div class="col-md-4">
-              <h1 style="color:white"> knit Scarf</h1>
-          </div>
+              <h1 style="color:white"> Knit Scarf</h1>
+                            <h2 class="price" style="color:white">$1,750</h2>
+
+<div class="form-group">
+  <label class="item1 inline" for="item1-size">Quantity</label>
+  <select id="quantity"  class="form-control inline auto-width"  id="item1-size">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+  </select>
+</div>
+<br>
+<div class="form-group">
+  <label class="item1 inline" for="item1-size">Size</label>
+  <select id="size" class="form-control inline auto-width" id="item1-size">
+    <option>One Size Fits All</option>
+  </select>
+</div>
+<br>
+ <div class="form-group">
+  <label class="item1 inline" for="item1-size">Color</label>
+  <select id="color" class="form-control inline auto-width" id="item1-size">
+    <option>Black</option>
+    <option>White</option>
+    <option>Brown</option>
+    <option>Gray</option>
+  </select>
+</div> 
+<br>
+ <button type="button" id="add" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal">Add to Bag</button>
+    <div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 id="item" class="modal-title">Knit Sweater</h4>
+      </div>
+      <div class="modal-body">
+        <p></p>
+      </div>
+      <div class="modal-footer">
+        <a href="checkout.html" class="btn btn-warning cent">Proceed to Checkout</a>
+      </div>
+    </div>
+
+  </div>
+</div>              
+            </div>
           <div class="col-md-2"></div>
           
           
