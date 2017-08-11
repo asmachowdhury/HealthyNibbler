@@ -19,13 +19,12 @@
 #home{
      text-decoration:underline;
     font-weight:bold;
-    font-family:'josefin slab';
-}
+font-family: "Dancing Script";}
 
 h2{
     text-decoration:underline;
     font-size:35px;
     font-weight:bold;
-    font-family: "Times New Roman", Georgia, Serif;
+    font-family: "Dancing Script";
     color:white;
 }
